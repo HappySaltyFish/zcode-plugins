@@ -1,0 +1,14 @@
+{
+  "name": "repo-guide",
+  "description": "Create task-focused repository tours with checked source excerpts, browser reports, and explicit command verification records.",
+  "description_i18n": {
+    "en": "Create task-focused repository tours with checked source excerpts, browser reports, and explicit command verification records.",
+    "zh-CN": "生成按任务组织的仓库导览，提供经过校验的源码片段、浏览器报告和明确的命令核验记录。"
+  },
+  "version": "0.1.0",
+  "author": {
+    "name": "RepoGuide course project contributors"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["onboarding", "code-tour", "source-evidence", "contribution"]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "title": "首次贡献：任务名称校验 / First contribution: task validation",
+  "task": "找到校验入口和测试，核验一次检查，并准备补充 README 的 Node 版本说明。This is a prewritten classroom example.",
+  "steps": [
+    { "title": "先读使用说明 / Start with the README", "explanation": "这是刻意设置文档缺口的教学样例：快速开始未注明 Node 版本，后续应与 package.json 对照。", "file": "README.md", "startLine": 1, "endLine": 10 },
+    { "title": "确认命令和环境 / Check scripts and environment", "explanation": "engines 声明 Node 版本；test 指向正常测试。test:failure 与 test:slow 专供失败和超时演示。脚本存在不代表已运行。", "file": "package.json", "startLine": 1, "endLine": 12 },
+    { "title": "定位校验实现 / Locate the implementation", "explanation": "validateTask 拒绝非文本、空白以及超过 80 字符的名称。这里展示真实实现，不将推断当作完整调用图。", "file": "src/validate.mjs", "startLine": 1, "endLine": 8 },
+    { "title": "检查测试覆盖 / Read the tests", "explanation": "正常测试验证去除空白、拒绝空输入和长度上限。执行状态由独立的运行记录提供。", "file": "test/validate.test.mjs", "startLine": 1, "endLine": 14 },
+    { "title": "准备贡献 / Prepare a contribution", "explanation": "沿用既有贡献规范，提出一个小范围 README 修改；提交和发布由人决定。", "file": "CONTRIBUTING.md", "startLine": 1, "endLine": 6 }
+  ]
+}
